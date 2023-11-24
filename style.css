@@ -1,0 +1,221 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/Users/marlen/Desktop/test/vite-project/roboto-v30-latin/roboto-v30-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('roboto-v30-latin/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+html{
+  width: 1440px;
+  height: 740px;
+  flex-shrink: 0;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+} 
+body{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: black; 
+}
+
+.wrapper{
+  width: 1440px;
+  height: 72px;
+  flex-shrink: 0;
+} 
+
+.header{
+  background-color: rgb(255, 255, 253);
+  width: 1440px;
+  height: 72px;
+  flex-shrink: 0;
+}
+.header__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.header__list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.nav_link:last-child{
+  margin-right: 20px;
+  margin-left: 100px;
+}
+.nav_link{
+  font-size: 18px;
+  line-height: 24px;
+  color: black;
+  text-decoration: none;
+  padding: 10px 25px;
+}
+.nav_linkg{
+  font-size: 18px;
+  line-height: 24px;
+  color: green;
+  text-decoration:none;
+  padding: 10px 178px;
+}
+.header__logo-pic{
+  border-left: 22px;
+  border-right: 1339px;
+  border-top: 22px;
+  border-bottom: 27px;
+}
+.header__logo{
+  border-left: 2px;
+  border-right: 1339px;
+  margin-top: 22px;
+  border-bottom: 27px;
+
+}
+.Text{
+  font-family: 'Roboto';
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  line-height: 55.88px;
+  margin-top: 159px;
+  margin-left: center; 
+}
+.hero{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.bottom-left{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.one{
+  width: 334px;
+  height: 400px;
+  flex-shrink: 0px;
+  padding: 120px;
+  display: inline-flex;
+}
+
+.text1{
+  width: 711px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400; 
+  line-height: 34.08px; 
+  margin-left: 365px;
+}
+
+img {
+  margin-right: 66px;
+}
+.textcols {
+	white-space: nowrap;
+	font-size: 0;
+}
+.textcols-item {
+	white-space: normal;	
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	margin-right: 4px;
+  margin-left: 120px;
+	font-size: 14px;
+}
+.textcols .textcols-item:last-child {
+	margin-right: 20px;
+}
+.quote {
+width: 699px;
+height: 672px;
+flex-shrink: 0;
+margin-top: 150px;
+}
+
+.Text2 {
+  color: #3C3B3D;
+
+text-align: center;
+font-family: Roboto;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 55.88px; /* 127% */
+margin-top: 159px;
+}
+.Travel {
+color: #FFF;
+width: 43px;
+padding-top:15px;
+text-align:center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22.88px; /* 143% */
+width: 216px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 15984px;
+background: #124E3B;
+box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.16);
+color: #fff2e1;
+margin-top: 98px;
+margin-left: 494px;
+}
+
+.Travel2 {
+background: white;
+border-radius: 10px 40px 40px 10px;
+padding-top:15px;
+width: 216px;
+flex-shrink: 0;
+border-radius: 77px;
+color: black;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+display: inline-block
+}
+
+
+
+padding-top:15px;
+width: 216px;
+flex-shrink: 0;
+border-radius: 77px;
+color: black;
+margin-top: 98px;
+margin-left: 494px;
+.touch {
+width: 334px;
+height: 400px;
+flex-shrink: 0px;
+padding: 120px;
+float: left;
+}
