@@ -1,19 +1,27 @@
-/* roboto-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url('/Users/marlen/Desktop/test/vite-project/roboto-v30-latin/roboto-v30-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: local("Roboto"); /* Браузер ищет локально шрифты  */
+  src: url('fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+  url('fonts/roboto-v30-latin-regular.woff') format('woff'),
+  url('fonts/roboto-v30-latin-regular.ttf') format('truetype'),
+  url('fonts/roboto-v30-latin-regular.eot');
 }
-/* roboto-700 - latin */
+
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
-  src: url('roboto-v30-latin/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  font-weight: 400;
+  src: local("Roboto");
+  src: url('fonts/roboto-v30-latin-700.woff2') format('woff2'),
+  url('fonts/roboto-v30-latin-700.woff') format('woff'),
+  url('fonts/roboto-v30-latin-700.ttf') format('truetype'),
+  url('fonts/roboto-v30-latin-700.eot');
 }
+
 html{
   width: 1440px;
   height: 740px;
@@ -203,15 +211,6 @@ font-weight: 400;
 display: inline-block
 }
 
-
-
-padding-top:15px;
-width: 216px;
-flex-shrink: 0;
-border-radius: 77px;
-color: black;
-margin-top: 98px;
-margin-left: 494px;
 .touch {
 width: 334px;
 height: 400px;
